@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <link rel = "stylesheet" href="styles.css">
+       <meta charset="UTF-8">
+       <title> Average Grade Calculator </title>
+   </head>
+   <body>
+     <div class = "userInput">
+        <h1> Average Grade Calculator </h1>
+        <input placeholder = "Math" type = "text" id = "Maths"  > <br><br>
+        <input placeholder = "Chemistry" type = "text" id = "Chemistry" > <br><br>
+        <input placeholder = "World History" type = "text" id = "History" > <br><br>
+        <input placeholder = "English" type = "text" id = "English" > <br><br>
+        <input placeholder = "Computer Science" type = "text" id = "ComputerScience" > <br><br>
+        <input placeholder = "Spanish 2" type = "text" id = "Spanish" > <br><br>
+        <input placeholder = "Physical Education" type = "text" id = "PE" > <br><br>
+        <button onclick="publishResult()"> View Results </button>
+        <button onclick = "empty()">Clear</button>
+     </div>
+     <div>
+        <span id = "sum"></span><br><br>
+        <span id = "percentage"></span><br><br>
+        <span id = "grade"></span><br><br>
+        <span id = "gpa"></span><br><br>
+     </div>
+     <script src = "result.js"></script>
+   </body>
+</html>
